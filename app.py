@@ -5,7 +5,7 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 from numpy import asarray
-
+import tensorflow as tf
 from keras.models import load_model
 
 st.set_page_config(page_title="Gender Classification", initial_sidebar_state="expanded")
