@@ -2,7 +2,6 @@
     Testing Model
 """
 import streamlit as st
-import tensorflow as tf
 from PIL import Image
 import numpy as np
 from numpy import asarray
@@ -23,7 +22,7 @@ def load_models():
     """
     Load model
     """
-    model_ = load_model("./models/vgg19.h5")
+    model_ = load_model("./models/models.h5")
     return model_
 
 
