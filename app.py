@@ -60,10 +60,10 @@ st.header("Use Your Webcam")
 
 with st.sidebar:
     st.subheader("About")
-    st.markdown(
-        "harusnya sampe evaluasi aja tapi nanggung jadi tak deploying.cape mikirin desain daripada modelingnya"
-    )
-    st.markdown("Kalau salah prediksi harap dimaklumi model kurang bagus ato mukkk")
+    # st.markdown(
+    #     "harusnya sampe evaluasi aja tapi nanggung jadi tak deploying.cape mikirin desain daripada modelingnya"
+    # )
+    # st.markdown("Kalau salah prediksi harap dimaklumi model kurang bagus ato mukkk")
     st.markdown(
         "<p>Bisa dikasi bintang jika berkenan <a href='https://github.com/ahdithya/gender-classification'>Gender Classification</a> </p>",
         unsafe_allow_html=True,
